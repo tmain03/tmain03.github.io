@@ -7,7 +7,7 @@
 
 .hero{
     
-    background: #5CDB95;
+    background: linear-gradient(#5CDB95, #EDF5E1);
     min-height: 100vh;
     width: 100%;
     color: #fff;
@@ -24,8 +24,8 @@ nav{
 .myName {
     text-align: left;
     position: absolute;
-    left: 150px;
-    top: 110px;
+    left: 175px;
+    top: 100px;
     color: #05386B;
     font-weight: bold;
     font-size: 50px;
@@ -48,7 +48,7 @@ nav ul li a {
     color: #05386B;
 }
 
-.me {
+.frontPageMe {
     position: absolute;
     top: 175px;
     left: 100px;
