@@ -64,6 +64,7 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     font-weight: bold;
+    font-size: 18px;
     color: #33E1ED;
 }
 
@@ -83,20 +84,26 @@ nav ul li a {
 .resize {
     width: 400px;
     height: auto;
+    border-radius: 20px;
 }
 
 .text-body {
-    text-align: right;
+    text-align: left;
     position: absolute;
-    top: 120px;
-    right: 45px;
+    top: 0px;
+    right: 0px;
     color: #33E1ED;
+    margin: 175px;
+    margin-left: 600px;
 }
 
 .light-mode .text-body {
-    text-align: right;
+    text-align: left;
     position: absolute;
-    top: 120px;
-    right: 45px;
+    top: 0px;
+    right: 0px;
     color: #FA5F1A;
+    margin: 175px;
+    margin-left: 600px;
 }
+
