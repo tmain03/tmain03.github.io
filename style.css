@@ -90,18 +90,49 @@ nav ul li a {
 .text-body {
     text-align: left;
     position: absolute;
-    top: 0px;
-    right: 0px;
+    top: 10px;
     color: #33E1ED;
     margin: 175px;
     margin-left: 600px;
 }
 
+.header {
+    text-align: left;
+    position: absolute;
+    font-size: 20px;
+    top: 150px;
+    color: #33E1ED;
+    margin-left: 600px;
+    font-weight: bold;
+}
+
+.lmdmButton {
+    background-color: #F7F0F0;
+    width: 50px;
+    height: 20px;
+    border-radius: 20px;
+}
+
+.light-mode .lmdmButton {
+    background-color: #2D2D44;
+    width: 50px;
+    height: 20px;
+    border-radius: 20px;
+}
+
+.light-mode .header {
+    text-align: left;
+    position: absolute;
+    font-size: 20px;
+    top: 150px;
+    color: #FA5F1A;
+    margin-left: 600px;
+    font-weight: bold;
+}
 .light-mode .text-body {
     text-align: left;
     position: absolute;
-    top: 0px;
-    right: 0px;
+    top: 10px;
     color: #FA5F1A;
     margin: 175px;
     margin-left: 600px;
