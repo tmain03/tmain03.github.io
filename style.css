@@ -43,16 +43,32 @@ nav ul li a {
 .projects {
     flex: 1;
     text-align: center;
+    margin-top: 175px;
 }
 
 .projects li {
     display: inline-block;
     list-style: none;
-    margin: 225px 95px;
+    margin: 50px 95px;
     text-decoration: none;
     font-weight: bold;
     font-size: 18px;
     color: #33E1ED;
+    vertical-align: top;
+}
+
+.project-title {
+    font-size: 20px;
+    color: #33E1ED;
+}
+
+.project-description {
+    font-size: 16px;
+    color: #CF7793;
+    margin-top: 10px;
+    max-width: 200px;
+    text-align: center;
+    word-wrap: break-word; /* Allows text to wrap within the max-width */
 }
 
 .frontPageMe {
@@ -74,7 +90,8 @@ nav ul li a {
     top: 10px;
     color: #33E1ED;
     margin: 175px;
-    margin-left: 550px;
+    margin-left: 450px;
+    font-size: 18px;
 }
 .contact-body {
     text-align: left;
@@ -150,7 +167,8 @@ nav ul li a {
     top: 10px;
     color: #FA5F1A;
     margin: 175px;
-    margin-left: 550px;
+    margin-left: 450px;
+    font-size: 18px;
 }
 .light-mode .contact-body {
     text-align: left;
