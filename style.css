@@ -64,11 +64,11 @@ nav ul li a {
 
 .project-description {
     font-size: 16px;
-    color: #CF7793;
-    margin-top: 10px;
-    max-width: 200px;
-    text-align: center;
-    word-wrap: break-word; /* Allows text to wrap within the max-width */
+    color: #CF7793 !important;
+    margin-top: 10px !important;
+    max-width: 200px !important;
+    text-align: center !important;
+    word-wrap: break-word !important; /* Allows text to wrap within the max-width */
 }
 
 .frontPageMe {
