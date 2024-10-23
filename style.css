@@ -68,7 +68,7 @@ nav ul li a {
     margin-top: 10px !important;
     max-width: 200px !important;
     text-align: center !important;
-    word-wrap: break-word !important; /* Allows text to wrap within the max-width */
+    word-wrap: break-word !important; 
 }
 
 .frontPageMe {
@@ -76,6 +76,15 @@ nav ul li a {
     top: 175px;
     left: 100px;
     width: 25%;
+}
+.me-description {
+    position: absolute;
+    color: #CF7793;
+    top: 175px; 
+    right: 100px;
+    width: 30%; 
+    text-align: left; 
+    line-height: 1.5; 
 }
 
 .resize {
